@@ -44,7 +44,7 @@ this project.
 * Ensure the virtualenv is being used as the interpreter.
 * Click **Apply** and **OK**.
 
-#* The Project.
+## The Project.
 
 * The project was done in a single file keeping all three test cases in
 one feature file.
