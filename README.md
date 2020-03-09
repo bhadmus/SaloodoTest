@@ -10,7 +10,7 @@
 * IDE: Pycharm (Professional Edition)
 * OS: macOS (Catalina 10.15.3)
 
-#* Installation and usage
+## Installation and usage
 ## Create a Python Virtual environment.
 So you can have an isolated working directory of the Python environment so
 as to keep the global Python free of installed dependencies. This ensures 
