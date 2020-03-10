@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from behave import *
-from helpers import values
+from Features.helpers import values
 
 driver = webdriver.Chrome()
 use_step_matcher("re")
