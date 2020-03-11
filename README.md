@@ -1,16 +1,24 @@
 # SaloodoTest
-
 ## Tools and Framework Used.
 * Language: Python
 * Language version: 3.7.5
 * Selenium
+* brew
 * Webdriver: Chrome
 * Framework: Behave
 * Framework version: 1.2.6
 * IDE: Pycharm (Professional Edition)
 * OS: macOS (Catalina 10.15.3)
-
-## Installation and usage
+## Installation and usage.
+Installation and usage can be done via the terminal or used through the Pycharm IDE.
+## Using the Terminal
+* open terminal
+* Install python by running _**"brew install python3"**_
+* Install behave and selenium by running _**"pip3 install behave selenium"**_
+* Install chromedriver by running _**"brew cask install chromedriver"**_
+* Navigate to the folder cloned from git.
+* run >behave ./Features/TestCases.feature
+## Using the IDE
 ## Create a Python Virtual environment.
 So you can have an isolated working directory of the Python environment so
 as to keep the global Python free of installed dependencies. This ensures 
@@ -29,9 +37,7 @@ environment forms our project working directory.
 > * Copy this project into the environment
 > * Activate the virtual environment by using 
 >_source <name_of_environment>/bin/activate_
-
 **NB:** To deactivate, just type _**deactivate**_ and hit enter
-
 ## Pycharm IDE
 * Install Pycharm (Professional Edition).
 * Open and navigate to the folder where this project has been copied 
@@ -43,11 +49,12 @@ and open it.
 this project.
 * Ensure the virtualenv is being used as the interpreter.
 * Click **Apply** and **OK**.
-
+## Project Execution
+>Navigate into the Features folder and run _**"behave TestCases.Feature"**_
 ## The Project.
 
 * The project was done in a single file keeping all three test cases in
 one feature file.
 * It was designed such that test cases will not be repeated.
 * The most important condition for this test is that:
->## The user must have logged in at least once after registration.  
+>The user must have logged in at least once after registration.  
