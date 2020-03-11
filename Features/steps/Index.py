@@ -134,3 +134,5 @@ def step_impl(context):
 
     except Exception as e:
         print(f"Assertion failed , {e}")
+
+    driver.quit()
